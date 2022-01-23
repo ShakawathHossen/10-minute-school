@@ -1,0 +1,78 @@
+/* google font link  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+
+.navigation{
+    box-shadow: 0px 0px 5px 2px rgb(219 219 219);
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+}
+.b-gradient{
+    border: none;
+    outline: none;
+    background-color: #000000d5;
+}
+.explore-btn{
+    width: 200px;
+}
+.b-gradient:hover{
+    background-image: linear-gradient(60deg,#c73131c7,#0000007c);
+}
+.menu:hover a{
+    background-color: green;
+    color: red;
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+
+.banner:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.avatar{
+    background-color:#d3d3d3;
+    padding: 12px;
+    border-radius: 50%;
+}
+#home{
+    padding: 20px 0;
+}
+#features{
+    margin: 100px 0;
+}
+#review{
+    padding: 20px 0;
+    background-color: rgb(236, 236, 236);
+}
+#faq{
+    padding: 50px 0;
+}
+#gellary{
+    padding: 50px 0;
+    background-color: rgba(255, 255, 255, 0.835);
+}
+.card{
+    position: relative;
+    overflow: hidden;
+
+}
+.card:hover{
+    box-shadow: inset -5px -3px 20px 0px #e3fd0d;
+}
+.card-text{
+    color: white;
+    position: absolute;
+    top: 40%;
+    font-weight: normal;
+    background-color: rgba(36, 209, 20, 0.301);
+   padding: 10px 0;
+    display: none;
+    
+}
+.card:hover .card-text{
+    display: block;
+    
+}
